@@ -1,0 +1,116 @@
+/*
+┳┓┓┏┏┓┏┓┳┏┓┳┓┏┓┳┓┏┓┏┓
+┃┃┗┫ ┃┃ ┃┣ ┣┫┃┃┃┃┣ ┗┓
+┛┗┗┛┗┛┗┛┻┗┛┻┛┗┛┛┗┗┛┗┛
+13/09/2026 START
+- Variables for the project- annotated accordingly.
+- Personal use only, do not copy or distribute without permission.
+*/
+
+///////////////////////////////////////////////////////////////////////////////////
+
+/* BRANDING COLORS */
+$bp:#C895F2; /*brand primary*/
+$bs:#99F295; /*brand secondary*/
+$bt:#F2ED95; /*brand tertiary*/
+
+/* brand rainbow colors*/
+$red:#F26C64;
+$orange:#F2BA64;
+$yellow:#F2E964;
+$green:#64F285;
+$blue:#64D5F2;
+$indigo:#CF64F2;
+$violet:#F264EB;
+
+/*brand monotone colors*/
+$m1:#EBBEE3; /*Light tone 1*/
+$m2:#C99EC2; /*Light tone 2*/
+$m3:#A3789C; /*Mid tone 1*/
+$m4:#6E4367; /*Mid tone 2*/
+$m5:#4F2548; /*Dark tone 1*/
+$m6:#2C0225; /*Dark tone 2*/
+
+/*Complementary monotone*/
+$c1:#BEEBC4; /*Light tone 1*/
+$c2:#9EC9A4; /*Light tone 2*/
+$c3:#78A37E; /*Mid tone 1*/
+$c4:#436E49; /*Mid tone 2*/
+$c5:#254F2B; /*Dark tone 1*/
+$c6:#022C08; /*Dark tone 2*/
+
+/* END BRANDING COLORS */
+
+///////////////////////////////////////////////////////////////////////////////////
+
+
+/*TYPOGRAPHY VARIABLES*/
+
+// FONTS
+$ChelseaMarket: "Chelsea Market", sans-serif; /*Headers*/
+$Raleway: "Raleway", sans-serif; /*Subheaders, body and text hierarchy*/
+$IBMPlexSans: "IBM Plex Sans", sans-serif; /*Links and buttons*/
+
+//FONT ROLES
+$header-font:$ChelseaMarket; // Main title
+$subheader-font:$IBMPlexSans; // subheaders and section titles
+$body-font:$Raleway; // main body and text hierarchy
+$link-font:$IBMPlexSans; // links and buttons.
+
+//FONT SIZES
+$root-font:16px; // root font size for rem calculations
+$header-size:clamp(2rem, 5vw, 4rem); // main header
+$subheader-size:clamp(1.5rem, 3vw, 2.5rem); //subheaders
+$sectiontitle-size:clamp(1.25rem, 2vw, 2rem); // section titles
+$body-size:clamp(0.75rem, 2vw, 1rem); // main body / links
+
+// Font weight and style.
+$regular:400;
+$medium:500;
+$semibold:600;
+$bold:700;
+$heavy:800;
+$extrabold:900;
+$italic:italic;
+$underline:underline;
+$uppercase:uppercase;
+
+/*End typography variables*/
+
+/////////////////////////////////////////////////////////////////////////////////// 
+
+/* BREAKPOINTS*/
+
+$mobile:480px; // mobile devices
+$tablet:768px; // tablets
+$desktop:1024px; // desktop
+
+///////////////////////////////////////////////////////////////////////////////////
+
+/* SPACING*/
+$space-xs:0.25rem; // 4px
+$space-sm:0.5rem; // 8px
+$space-md:1rem; //16px
+$space-lg:2rem; //32px
+$space-xl:3rem; //48px
+
+///////////////////////////////////////////////
+
+/*BORDERS*/
+$b-t:1px solid $m3; //border thin
+$b-m:2px solid $m3; //border medium
+$b-l:4px solid $m3; //border large
+$b-dou:6px double $m3; //border double
+$b-das:2px dashed $m3; //border dashed
+$b-dot:2px dotted $m3; //border dotted
+$b-n:none; //border none
+$brs:4px; //border radius small
+$brm:8px; //border radius medium
+$brl:16px; //border radius large
+$brr:50%; //border radius round
+
+/////////////////////////////////////////
+
+/*SHADOWS*/
+$b-i:inset 0 0 10px $m3; //border inset
+$b-o: outset 0 0 10px $m3; //border outset

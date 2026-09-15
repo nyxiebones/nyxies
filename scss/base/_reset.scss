@@ -1,0 +1,205 @@
+/*
+┳┓┓┏┏┓┏┓┳┏┓┳┓┏┓┳┓┏┓┏┓
+┃┃┗┫ ┃┃ ┃┣ ┣┫┃┃┃┃┣ ┗┓
+┛┗┗┛┗┛┗┛┻┗┛┻┛┗┛┛┗┗┛┗┛
+15/09/2026 
+- reset.scss file for the project.
+*/
+
+///////// UNIVERSAL RESET ///////////
+
+*, *::before, *::after {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+/////////// DOCUMENT ///////////
+
+html{
+    font-size:100%;
+    -webkit-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
+
+body{
+    min-height:100vh;
+    margin:0;
+}
+
+////////// HEADINGS //////////
+h1, h2, h3, h4, h5, h6{
+    margin:0;
+    padding:0;
+    font-size:inherit;
+    font-weight:inherit;
+}
+
+//////// TEXT /////////
+
+p{
+    margin:0;
+    padding:0;
+}
+
+address{
+    margin:0;
+    padding:0;
+    font-style:normal;
+}
+
+//////// LINKS ////////
+a{
+    margin:0;
+    padding:0;
+    color:inherit;
+    text-decoration:none;
+}
+
+////////// LISTS ////////
+
+ul, ol, menu{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+li{
+    margin:0;
+    padding:0;
+}
+
+
+/////// FIGURES ///////
+
+figure, figcaption{
+    margin:0;
+    padding:0;
+}
+
+///// BLOCKQUOTES / QUOTES //////
+
+blockquote, q{
+    margin:0;
+    padding:0;
+    quotes:none;
+}
+blockquote::before, blockquote::after, q::before, q::after{
+    content:none;
+}
+
+//////// FORMS ////////
+
+form{
+    margin:0;
+    padding:0;
+}
+
+fieldset{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+legend{
+    margin:0;
+    padding:0;
+}
+
+label{
+    margin:0;
+    padding:0;
+}
+
+button, input, textarea, select, optgroup, option{
+    margin:0;
+    padding:0;
+    border:0;
+    background:none;
+    color:inherit;
+    font:inherit;
+}
+
+button, input, textarea, select{
+    appearance:none;
+}
+
+button{
+    cursor:pointer;
+}
+
+textarea{
+    resize:vertical;
+}
+
+////////////TABLES//////////
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+caption, th, td{
+    margin:0;
+    padding:0;
+}
+
+///////// HORIZONTAL//////
+
+hr{
+    margin:0;
+    border:0;
+}
+
+
+///// CODE AND PREFORMATTED TEXT //////
+
+pre, code, kbd, samp{
+    margin:0;
+    padding:0;
+    font:inherit;
+}
+
+////// DETAILS AND SUMMARY /////
+
+details, summary{
+    margin:0;
+    padding:0;
+}
+
+/////// SUBSCRIPT / SUPERSCRIPT /////
+
+sub, sup{
+    margin:0;
+    padding:0;
+    font-size:inherit;
+    line-height:inherit;
+}
+
+/////// MEDIA ///////
+
+img, picture, video, canvas, svg, iframe, embed, object{
+    display:block;
+    max-width:100%;
+}
+
+img, video{
+    height:auto;
+}
+
+audio{
+    display:block;
+}
+
+dialog{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+///// HIDDEN /////
+
+[hidden] {
+    display:none !important;
+}

@@ -1,0 +1,39 @@
+/*
+┳┓┓┏┏┓┏┓┳┏┓┳┓┏┓┳┓┏┓┏┓
+┃┃┗┫ ┃┃ ┃┣ ┣┫┃┃┃┃┣ ┗┓
+┛┗┗┛┗┛┗┛┻┗┛┻┛┗┛┛┗┗┛┗┛
+13/09/2026 START
+- Typography for the project
+*/
+@font-face {
+    font-family: "Chelsea Market";
+    src: url("../assets/fonts/ChelseaMarket-Regular.ttf") format("truetype");
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight:100 900;
+    font-style:normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("../assets/fonts/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+    font-weight:100 900;
+    font-style:italic;
+}
+
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("../assets/fonts/IBM-Plex-Sans-VariableFont_wght.ttf") format("truetype");
+    font-weight:100 900;
+    font-style:normal;
+}
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url("../assets/fonts/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+    font-weight:100 900;
+    font-style:italic;
+}
