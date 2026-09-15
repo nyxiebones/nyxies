@@ -114,3 +114,23 @@ $brr:50%; //border radius round
 /*SHADOWS*/
 $b-i:inset 0 0 10px $m3; //border inset
 $b-o: outset 0 0 10px $m3; //border outset
+
+/// flex ///
+$row:row;
+$cen:center; //align
+$col:column;
+$fl-s:flex-start;
+$fl-e:flex-end;
+$sp-b:space-between;
+$sp-a:space-around;
+$sp-e:space-evenly;
+$fl:flex;
+$str:stretch;
+$wr:wrap;
+$nowr:nowrap;
+
+//sidebar
+
+$sb-w:25vw;
+$sh-h:100vh;
+$sbg:$bp;

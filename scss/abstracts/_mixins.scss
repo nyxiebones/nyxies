@@ -1,0 +1,24 @@
+@use '../abstracts/variables' as *;
+@use '../base/typography' as *;
+@mixin flex-row
+{
+    display:$fl;
+    flex-direction:$row;
+    justify-content:$sp-e;
+    align-items:$fl-s;
+    gap:0;
+}
+
+@mixin navbarsz{
+    @include flex-row;
+    width:100%;
+    height:100%;
+}
+
+@mixin sidebar{
+    background-color:$sbg;
+    min-width:$sb-w;
+    max-width:$sb-h;
+    max-height:$sb-h;
+    min-height:$sh-w;
+}
