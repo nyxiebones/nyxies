@@ -1,4 +1,8 @@
 @use '/scss/abstracts/variables' as *;
+
+*{
+    font-size:$root-font;
+}
 html{
     scroll-behavior:smooth;
 }
