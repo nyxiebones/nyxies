@@ -15,5 +15,9 @@
 @use 'base/reset' as *;
 @use 'base/typography' as *;
 
+
+@use 'layout/body' as *;
+@use 'layout/content' as *;
+@use 'layout/main' as *;
 @use 'layout/navbar' as *;
 @use 'layout/sidebar' as *;

@@ -1,5 +1,14 @@
 @use '../abstracts/variables' as *;
 @use '../base/typography' as *;
+
+@mixin flex-row-between{
+    display:$fl;
+    flex-direction:$row;
+    justify-content:$sp-b;
+    align-items:$fl-s;
+    gap:0;
+}
+
 @mixin flex-row
 {
     display:$fl;
@@ -12,7 +21,7 @@
 @mixin navbarsz{
     @include flex-row;
     width:100%;
-    height:100%;
+    height:20%;;
 }
 
 @mixin sidebar{
