@@ -10540,6 +10540,10 @@ readers do not read off random characters that represent icons */
   font-weight: 100 900;
   font-style: italic;
 }
+* {
+  font-size: 16px;
+}
+
 html {
   scroll-behavior: smooth;
 }
