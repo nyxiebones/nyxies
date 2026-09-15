@@ -1,0 +1,7 @@
+@use '../abstracts/mixins' as *;
+#main{
+    @include flex-row;
+    width:80vw;
+    height:75vh;
+    overflow:hidden;
+}

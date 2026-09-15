@@ -18,7 +18,7 @@
 @mixin sidebar{
     background-color:$sbg;
     min-width:$sb-w;
-    max-width:$sb-h;
-    max-height:$sb-h;
-    min-height:$sh-w;
+    max-width:$sb-w;
+    max-height:$m-h;
+    min-height:$m-h;
 }

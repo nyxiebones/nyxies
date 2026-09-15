@@ -6,14 +6,9 @@ html{
 body,html{
     min-height:100vh;
     max-height:100vh;
-}
-
-main{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
     overflow:hidden;
 }
+
 
 ::selection{
     background:$bp;
