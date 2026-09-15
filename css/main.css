@@ -10739,7 +10739,26 @@ dialog {
 #content {
   width: 80vw;
   height: 75vh;
+}
+
+#footer {
   background-color: #F2ED95;
+  width: 100vw;
+  height: 5vh;
+}
+
+#header {
+  background-color: #F2ED95;
+  width: 100vw;
+  height: 20vh;
+}
+
+#topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0;
 }
 
 #main {
