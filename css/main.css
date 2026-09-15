@@ -10742,13 +10742,11 @@ dialog {
 }
 
 #footer {
-  background-color: #F2ED95;
   width: 100vw;
   height: 5vh;
 }
 
 #header {
-  background-color: #F2ED95;
   width: 100vw;
   height: 20vh;
 }
@@ -10783,7 +10781,6 @@ dialog {
 }
 
 #sidebar {
-  background-color: #C895F2;
   min-width: 20vw;
   max-width: 20vw;
   max-height: 75vh;
