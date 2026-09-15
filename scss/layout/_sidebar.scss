@@ -1,6 +1,11 @@
 @use '../abstracts/mixins' as * ;
 
 #sidebar{
+    @include flex-col;
     @include sidebar;
+    text-align:center;
+}
 
+#sidebar .rounded-avatar{
+    max-width:75%;
 }

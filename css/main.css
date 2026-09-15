@@ -10746,6 +10746,7 @@ dialog {
 }
 
 #footer {
+  text-align: center;
   width: 100vw;
   height: 5vh;
 }
@@ -10777,7 +10778,7 @@ dialog {
 #navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 0;
   width: 100%;
@@ -10785,8 +10786,18 @@ dialog {
 }
 
 #sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0;
   min-width: 20vw;
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
+  text-align: center;
+}
+
+#sidebar .rounded-avatar {
+  max-width: 75%;
 }/*# sourceMappingURL=main.css.map */
