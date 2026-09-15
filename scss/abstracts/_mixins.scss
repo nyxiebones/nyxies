@@ -21,7 +21,7 @@
 @mixin navbarsz{
     @include flex-row;
     width:100%;
-    height:20%;;
+    height:20%;
 }
 
 @mixin sidebar{
