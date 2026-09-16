@@ -42,19 +42,75 @@
             </aside>
             <section id="content">
                  <nav id="navbar">
-                    <div class="nav-item">
+                    <button type="button" class="nav-item" data-popup="about-popup">
                         ABOUT
-                    </div>
-                    <div class="nav-item">
+                    </button>
+                    <button type="button" class="nav-item" data-popup="creative-popup">
                         CREATIVE
-                    </div>
-                    <div class="nav-item">
+                    </button>
+                    <button type="button" class="nav-item" data-popup="documentation-popup">
                         DOCUMENTATION
-                    </div>
-                    <div class="nav-item">
+                    </button>
+                    <button type="button" class="nav-item" data-popup="support-popup">
                         SUPPORT
-                    </div>
+                    </button>
                 </nav>
+                <div id="popup-container">
+                    <!--about links-->
+                    <div id="about-popup" class="popup" hidden>
+                        <!--about links and title goes here-->
+                        <header class="popup-header">
+                            <h2>About</h2>
+                            <button type="button" class="popup-close" aria-label="Close popup">
+                                <i class="fa fa-window-close" aria-hidden="true"></i>
+                            </button>
+                        </header>
+                        <!-- about links content, category titles e.t.c-->
+                    </div>
+                    <!--end about links-->
+
+                   <!--creative links-->
+                    <div id="creative-popup" class="popup" hidden>
+                        <!--creative links and title goes here-->
+                        <header class="popup-header">
+                            <h2>Creative</h2>
+                            <button type="button" class="popup-close" aria-label="Close popup">
+                                <i class="fa fa-window-close" aria-hidden="true"></i>
+                            </button>
+                        </header>
+                        <!--- section titles and links here-->
+                    </div>
+                    <!--end creative links-->
+
+                    <!--documentation links-->
+                    <div id="documentation-popup" class="popup" hidden>
+                        <!--documentation links and title goes here-->
+                         <header class="popup-header">
+                            <h2>Documentation</h2>
+                            <button type="button" class="popup-close" aria-label="Close popup">
+                                <i class="fa fa-window-close" aria-hidden="true"></i>
+                            </button>
+                        </header>
+                        <!--- section titles and links here-->
+                    </div>
+                    <!--documentation about links-->
+
+                    <!--support links-->
+                    <div id="support-popup" class="popup" hidden>
+                        <!--support links and title goes here-->
+                         <header class="popup-header">
+                            <h2>Support</h2>
+                            <button type="button" class="popup-close" aria-label="Close popup">
+                                <i class="fa fa-window-close" aria-hidden="true"></i>
+                            </button>
+                        </header>
+                        <!--- section titles and links here-->
+                    </div>
+                    <!--end support links-->
+                    
+                    
+
+                </div>
                 <section id="board" class="post">
 
                     <h2>EXAMPLE TTLE</h2>
