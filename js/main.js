@@ -1,11 +1,14 @@
-const aboutButton = document.querySelector('[data-popup="about-popup"]');
-const aboutPopup = document.querySelector('#about-popup');
+const popupButtons = document.querySelectorAll('[data-popup]');
+popupButtons.forEach((button) => {
+    const popupId = button.dataset.popup;
+    const popup = document.querySelector(`#${popupId}`);
+    const closeButton = popup.querySelector('.popup-close');
 
-aboutButton.addEventListener('click', () => {
-    aboutPopup.hidden = false;
-});
+    button.addEventListener('click', () => {
+        popup.hidden = false;
+    });
 
-const aboutClose = document.querySelector('#about-popup .popup-close');
-aboutClose.addEventListener('click', () => {
-    aboutPopup.hidden = true;
+    closeButton.addEventListener('click', () => {
+        popup.hidden = true;
+    });
 });
