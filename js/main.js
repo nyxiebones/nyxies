@@ -5,6 +5,9 @@ popupButtons.forEach((button) => {
     const closeButton = popup.querySelector('.popup-close');
 
     button.addEventListener('click', () => {
+        document.querySelectorAll('.popup').forEach((popup) => {
+            popup.hidden = true;
+        });
         popup.hidden = false;
     });
 
