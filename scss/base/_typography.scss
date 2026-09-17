@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as *;
 /*
 ┳┓┓┏┏┓┏┓┳┏┓┳┓┏┓┳┓┏┓┏┓
 ┃┃┗┫ ┃┃ ┃┣ ┣┫┃┃┃┃┣ ┗┓
@@ -36,4 +37,16 @@
     src: url("../assets/fonts/IBMPlexSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
     font-weight:100 900;
     font-style:italic;
+}
+
+h1, h2, h3{
+    font-family:$ChelseaMarket;
+}
+
+h4, h5, h6, a{
+    font-family:$Raleway;
+}
+
+b, i, u, li, ol, ul, span, code, p{
+    font-family:$IBMPlexSans;
 }

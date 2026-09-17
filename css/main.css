@@ -10540,6 +10540,18 @@ readers do not read off random characters that represent icons */
   font-weight: 100 900;
   font-style: italic;
 }
+h1, h2, h3 {
+  font-family: "Chelsea Market", sans-serif;
+}
+
+h4, h5, h6, a {
+  font-family: "Raleway", sans-serif;
+}
+
+b, i, u, li, ol, ul, span, code, p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
 * {
   font-size: 16px;
 }
