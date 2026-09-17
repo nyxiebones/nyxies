@@ -1,6 +1,4 @@
 @use '../abstracts/variables' as *;
-@use '../base/typography' as *;
-
 @mixin flex-row-between{
     display:$fl;
     flex-direction:$row;
