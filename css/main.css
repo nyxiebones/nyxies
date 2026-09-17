@@ -10544,7 +10544,11 @@ h1, h2, h3 {
   font-family: "Chelsea Market", sans-serif;
 }
 
-h4, h5, h6, a {
+h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+a, button {
   font-family: "Raleway", sans-serif;
 }
 

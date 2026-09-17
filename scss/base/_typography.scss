@@ -43,10 +43,12 @@ h1, h2, h3{
     font-family:$ChelseaMarket;
 }
 
-h4, h5, h6, a{
+h4, h5, h6{
     font-family:$Raleway;
 }
-
+a, button{
+    font-family:$Raleway;
+}
 b, i, u, li, ol, ul, span, code, p{
     font-family:$IBMPlexSans;
 }
