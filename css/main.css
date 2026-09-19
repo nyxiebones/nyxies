@@ -10527,6 +10527,10 @@ body, html {
   color: #F2ED95;
 }
 
+#board {
+  overflow-x: scroll;
+}
+
 /*
 ┳┓┓┏┏┓┏┓┳┏┓┳┓┏┓┳┓┏┓┏┓
 ┃┃┗┫ ┃┃ ┃┣ ┣┫┃┃┃┃┣ ┗┓
