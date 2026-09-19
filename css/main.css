@@ -10791,7 +10791,7 @@ blockquote, cite {
   font-family: "Raleway", sans-serif;
 }
 
-small, time, code, pre, caption {
+small, time, code, pre, caption, button, a {
   font-family: "Space Grotesk", sans-serif;
 }
 
