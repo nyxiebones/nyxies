@@ -2,6 +2,7 @@
 @use '../abstracts/variables' as *;
 
 #header{
+    background-color:$bp;
     width:100vw;
     height:20vh;
 }

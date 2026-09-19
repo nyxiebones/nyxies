@@ -2,6 +2,7 @@
 @use '../abstracts/variables' as *;
 
 #footer{
+    background-color:$bp;
     text-align:center;
     width:100vw;
     height:5vh;

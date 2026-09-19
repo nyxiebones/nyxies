@@ -10,14 +10,14 @@
 @mixin flex-row{
     display:$fl;
     flex-direction:$row;
-    justify-content:$sp-b;
+    justify-content:$sp-a;
     align-items:$fl-s;
     gap:0;
 }
 @mixin flex-col{
     display:$fl;
     flex-direction:$col;
-    justify-content:$sp-a;
+    justify-content:$sp-e;
     align-items:$cen;
     gap:0;
 }
@@ -25,7 +25,6 @@
 @mixin navbarsz{
     @include flex-row;
     width:100%;
-    height:20%;
 }
 
 @mixin sidebar{

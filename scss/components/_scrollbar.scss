@@ -1,0 +1,7 @@
+@use '/scss/abstracts/variables' as *;
+
+#board{
+    overflow-y:scroll;
+    scrollbar-width:thin;
+    scrollbar-color:$bp $bs;
+}

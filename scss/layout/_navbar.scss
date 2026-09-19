@@ -3,6 +3,7 @@
 @use '../base/typography' as *;
 #navbar{
     @include navbarsz;
+    background-color:$bt;
 }
 
 #navbar button{

@@ -10804,12 +10804,14 @@ table, th, td {
 }
 
 #footer {
+  background-color: #C895F2;
   text-align: center;
   width: 100vw;
   height: 5vh;
 }
 
 #header {
+  background-color: #C895F2;
   width: 100vw;
   height: 20vh;
 }
@@ -10836,11 +10838,11 @@ table, th, td {
 #navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   gap: 0;
   width: 100%;
-  height: 20%;
+  background-color: #F2ED95;
 }
 
 #navbar button {
@@ -10850,13 +10852,14 @@ table, th, td {
 #sidebar {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   gap: 0;
   min-width: 20vw;
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
+  background-color: #99F295;
   text-align: center;
 }
 
@@ -10866,4 +10869,10 @@ table, th, td {
 
 .popup-header h2 {
   font-family: "Chelsea Market", sans-serif;
+}
+
+#board {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #C895F2 #99F295;
 }/*# sourceMappingURL=main.css.map */
