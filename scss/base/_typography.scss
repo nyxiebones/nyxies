@@ -39,16 +39,59 @@
     font-style:italic;
 }
 
-h1, h2, h3{
-    font-family:$ChelseaMarket;
+@font-face {
+    font-family:"Space Grotesk";
+    src:url("/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+    font-weight:100 900;
+    font-style:normal;
 }
 
-h4, h5, h6{
-    font-family:$Raleway;
+html, body{
+    font-family:$body-font;
+    font-size:$body-text;
 }
-a, code{
-    font-family:$IBMPlexSans;
+
+h1{
+    font-family:$header-font;
+    font-size:$h1;
 }
-b, i, u, li, ol, ul, span, p{
-    font-family:$Raleway;
+
+h2, h3, h4, h5, h6{
+    font-family:$subheader-font;
+}
+
+h2{
+    font-size:$h2;
+}
+
+h3{
+    font-size:$h3;
+}
+
+h4{
+    font-size:$h4;
+}
+
+h5{
+    font-size:$h5;
+}
+
+h6{
+    font-size:$h6;
+}
+
+strong, b, i, u, em, ul, ol, li{
+    font-family:$body-font;
+}
+
+blockquote cite{
+    font-family:$subheader-font;
+}
+
+small time code pre caption{
+    font-family:$link-font;
+}
+
+table th td{
+    font-family:$body-font;
 }

@@ -47,22 +47,27 @@ $c6:#022C08; /*Dark tone 2*/
 /*TYPOGRAPHY VARIABLES*/
 
 // FONTS
-$ChelseaMarket: "Chelsea Market", sans-serif; /*Headers*/
-$Raleway: "Raleway", sans-serif; /*Subheaders, body and text hierarchy*/
-$IBMPlexSans: "IBM Plex Sans", sans-serif; /*Links and buttons*/
+$ChelseaMarket: "Chelsea Market", sans-serif; // Main header + popup header.
+$Raleway: "Raleway", sans-serif; //Subheaders / titles
+$IBMPlexSans: "IBM Plex Sans", sans-serif; // Body and text hierarchy
+$SpaceGrotesk:"Space Grotesk", sans-serif; // Links and Buttons
 
 //FONT ROLES
 $header-font:$ChelseaMarket; // Main title
-$subheader-font:$IBMPlexSans; // subheaders and section titles
-$body-font:$Raleway; // main body and text hierarchy
-$link-font:$IBMPlexSans; // links and buttons.
+$subheader-font:$Raleway; // subheaders and section titles
+$body-font:$IBMPlexSans; // main body and text hierarchy
+$link-font:$SpaceGrotesk; // links and buttons.
 
 //FONT SIZES
 $root-font:16px; // root font size for rem calculations
-$header-size:clamp(2rem, 5vw, 4rem); // main header
-$subheader-size:clamp(1.5rem, 3vw, 2.5rem); //subheaders
-$sectiontitle-size:clamp(1.25rem, 2vw, 2rem); // section titles
-$body-size:clamp(0.75rem, 2vw, 1rem); // main body / links
+$h1:clamp(2rem, 5vw, 4rem); // main header
+$h2:clamp(1.75rem, 4vw, 3rem);
+$h3:clamp(1.5rem, 3vw, 2.25rem);
+$h4:clamp(1.25rem, 2.5vw, 2rem);
+$h5:clamp(1.125rem, 2vw, 1.5rem);
+$h6:clamp(1rem, 1.5vw, 1.25rem);
+
+$body-text:clamp(0.875rem, 1vw, 1rem);
 
 // Font weight and style.
 $regular:400;

@@ -10495,9 +10495,6 @@ readers do not read off random characters that represent icons */
 /*Dark tone 2*/
 /* END BRANDING COLORS */
 /*TYPOGRAPHY VARIABLES*/
-/*Headers*/
-/*Subheaders, body and text hierarchy*/
-/*Links and buttons*/
 /*End typography variables*/
 /* BREAKPOINTS*/
 /* SPACING*/
@@ -10746,20 +10743,60 @@ dialog {
   font-weight: 100 900;
   font-style: italic;
 }
-h1, h2, h3 {
-  font-family: "Chelsea Market", sans-serif;
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+html, body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: clamp(0.875rem, 1vw, 1rem);
 }
 
-h4, h5, h6 {
+h1 {
+  font-family: "Chelsea Market", sans-serif;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-a, code {
+h2 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+h4 {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+h5 {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+}
+
+h6 {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+strong, b, i, u, em, ul, ol, li {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-b, i, u, li, ol, ul, span, p {
+blockquote cite {
   font-family: "Raleway", sans-serif;
+}
+
+small time code pre caption {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+table th td {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 #content {
@@ -10808,7 +10845,7 @@ b, i, u, li, ol, ul, span, p {
 }
 
 #navbar button {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 #sidebar {
