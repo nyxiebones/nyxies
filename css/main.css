@@ -10500,7 +10500,7 @@ readers do not read off random characters that represent icons */
 /* SPACING*/
 /*BORDERS*/
 /*SHADOWS*/
-* {
+html {
   font-size: 16px;
 }
 
