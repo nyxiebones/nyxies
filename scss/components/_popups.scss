@@ -1,0 +1,6 @@
+@use '../abstracts/variables' as *;
+@use '../base/typography' as *;
+
+.popup-header h2{
+    font-family:$header-font;
+}

@@ -41,7 +41,7 @@
 
 @font-face {
     font-family:"Space Grotesk";
-    src:url("/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
+    src:url("../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
     font-weight:100 900;
     font-style:normal;
 }
@@ -84,14 +84,14 @@ strong, b, i, u, em, ul, ol, li{
     font-family:$body-font;
 }
 
-blockquote cite{
+blockquote, cite{
     font-family:$subheader-font;
 }
 
-small time code pre caption{
+small, time, code, pre, caption{
     font-family:$link-font;
 }
 
-table th td{
+table, th, td{
     font-family:$body-font;
 }
