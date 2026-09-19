@@ -7,14 +7,14 @@
     gap:0;
 }
 
-@mixin flex-row{
+@mixin flex-row-around{
     display:$fl;
     flex-direction:$row;
     justify-content:$sp-a;
     align-items:$fl-s;
     gap:0;
 }
-@mixin flex-col{
+@mixin flex-col-even{
     display:$fl;
     flex-direction:$col;
     justify-content:$sp-e;
@@ -23,7 +23,7 @@
 }
 
 @mixin navbarsz{
-    @include flex-row;
+    @include flex-row-around;
     width:100%;
 }
 

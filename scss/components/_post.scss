@@ -1,0 +1,11 @@
+@use '/scss/abstracts/variables' as *;
+
+.post{
+    margin:$space-md;
+    padding:$space-xs;
+    background-color:white;
+}
+
+.post p{
+    text-align:center;
+}

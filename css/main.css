@@ -10830,6 +10830,9 @@ table, th, td {
   justify-content: space-between;
   align-items: flex-start;
   gap: 0;
+  background-image: url("/assets/images/board.webp");
+  background-attachment: fixed;
+  background-repeat: repeat;
   width: 100vw;
   height: 75vh;
   overflow: hidden;
@@ -10859,7 +10862,7 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background-color: #99F295;
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -10869,6 +10872,16 @@ table, th, td {
 
 .popup-header h2 {
   font-family: "Chelsea Market", sans-serif;
+}
+
+.post {
+  margin: 1rem;
+  padding: 0.25rem;
+  background-color: white;
+}
+
+.post p {
+  text-align: center;
 }
 
 #board {

@@ -2,9 +2,9 @@
 @use '../abstracts/variables' as *;
 
 #sidebar{
-    @include flex-col;
+    @include flex-col-even;
     @include sidebar;
-    background-color:$bs;
+    background-color:rgb(255, 255, 255);
     text-align:center;
 }
 

@@ -2,6 +2,9 @@
 @use '../abstracts/variables' as *;
 #main{
     @include flex-row-between;
+    background-image:url('/assets/images/board.webp');
+    background-attachment:fixed;
+    background-repeat:repeat;
     width:100vw;
     height:75vh;
     overflow:hidden;
