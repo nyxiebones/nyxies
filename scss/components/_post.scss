@@ -1,9 +1,9 @@
 @use '/scss/abstracts/variables' as *;
 
 .post{
+    background-color:$m0;
     margin:$space-md;
     padding:$space-xs;
-    background-color:white;
 }
 
 .post p{

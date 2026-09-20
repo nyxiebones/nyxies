@@ -10830,9 +10830,9 @@ table, th, td {
   justify-content: space-between;
   align-items: flex-start;
   gap: 0;
-  background-image: url("/assets/images/hexagon-graph-paper-seamless-pattern-png.webp");
+  background: url("/assets/images/pngtree-black-and-white-seamless-pattern-imitating-chains-and-chain-mail-png-image_12698918.png"), linear-gradient(to bottom, #EBBEE3 90%, #ffe3fa 100%);
   background-attachment: fixed;
-  background-repeat: repeat;
+  background-size: 150px 150px, auto;
   width: 100vw;
   height: 75vh;
   overflow: hidden;
@@ -10862,7 +10862,7 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #4F2548 70%, #A3789C 99%, #EBBEE3 100%, #BEEBC4 100%);
+  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #2C0225 70%, #6E4367 99%, #EBBEE3 100%, #BEEBC4 100%);
   background-size: 150px 150px, auto;
   text-align: center;
 }
@@ -10877,9 +10877,9 @@ table, th, td {
 }
 
 .post {
+  background-color: #ffe3fa;
   margin: 1rem;
   padding: 0.25rem;
-  background-color: white;
 }
 
 .post p {

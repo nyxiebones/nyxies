@@ -24,6 +24,7 @@ $indigo:#CF64F2;
 $violet:#F264EB;
 
 /*brand monotone colors*/
+$m0:#ffe3fa;
 $m1:#EBBEE3; /*Light tone 1*/
 $m2:#C99EC2; /*Light tone 2*/
 $m3:#A3789C; /*Mid tone 1*/
@@ -43,10 +44,16 @@ $c6:#022C08; /*Dark tone 2*/
 
 $sb-grad:linear-gradient(
     to bottom,
-    $m5 70%,
-    $m3 99%,
+    $m6 70%,
+    $m4 99%,
     $m1 100%,
     $c1 100%
+ );
+
+ $board-grad:linear-gradient(
+    to bottom,
+    $m1 90%,
+    $m0 100%
  );
 
 /* END BRANDING COLORS */

@@ -2,9 +2,10 @@
 @use '../abstracts/variables' as *;
 #main{
     @include flex-row-between;
-    background-image:url('/assets/images/hexagon-graph-paper-seamless-pattern-png.webp');
+    background:url('/assets/images/pngtree-black-and-white-seamless-pattern-imitating-chains-and-chain-mail-png-image_12698918.png'),
+    $board-grad;
     background-attachment:fixed;
-    background-repeat:repeat;
+    background-size:150px 150px, auto;
     width:100vw;
     height:75vh;
     overflow:hidden;
