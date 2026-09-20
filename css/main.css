@@ -10862,7 +10862,7 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #2C0225 70%, #6E4367 99%, #EBBEE3 100%, #BEEBC4 100%);
+  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #4F2548 70%, #6E4367 99%, #EBBEE3 100%, #BEEBC4 100%);
   background-size: 150px 150px, auto;
   text-align: center;
 }
@@ -10878,7 +10878,8 @@ table, th, td {
 
 .post {
   background-color: #ffe3fa;
-  border: inset 0 0 10px #A3789C;
+  border: 1px solid #A3789C;
+  box-shadow: inset 0 0 10px #C99EC2;
   margin: 1rem;
   padding: 0.25rem;
 }

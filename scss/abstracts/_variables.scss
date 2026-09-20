@@ -44,7 +44,7 @@ $c6:#022C08; /*Dark tone 2*/
 
 $sb-grad:linear-gradient(
     to bottom,
-    $m6 70%,
+    $m5 70%,
     $m4 99%,
     $m1 100%,
     $c1 100%
@@ -134,8 +134,8 @@ $brr:50%; //border radius round
 /////////////////////////////////////////
 
 /*SHADOWS*/
-$b-i:inset 0 0 10px $m3; //border inset
-$b-o: outset 0 0 10px $m3; //border outset
+$b-i:inset 0 0 10px $m2; //border inset
+$b-o:outset 0 0 10px $m2; //border outset
 
 /// flex ///
 $row:row;
