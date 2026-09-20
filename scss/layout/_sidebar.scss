@@ -4,7 +4,7 @@
 #sidebar{
     @include flex-col-even;
     @include sidebar;
-    background-color:$m0;
+    background-color:$m4;
     border-right:$b-t;
     text-align:center;
 }

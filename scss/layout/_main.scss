@@ -2,8 +2,8 @@
 @use '../abstracts/variables' as *;
 #main{
     @include flex-row-between;
-    background:url('/assets/images/pngtree-black-and-white-seamless-pattern-imitating-chains-and-chain-mail-png-image_12698918.png'),
-    $board-grad;
+    background:url('/assets/images/pngtree-black-and-white-seamless-pattern-imitating-chains-and-chain-mail-png-image_12698918.png');
+    background-color:$m3;
     background-attachment:fixed;
     background-size:150px 150px, auto;
     width:100vw;
