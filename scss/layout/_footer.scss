@@ -2,8 +2,10 @@
 @use '../abstracts/variables' as *;
 
 #footer{
-    background:$footer-grad;
-    border-top:$bs;
+    background:url('/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png'),
+    $footer-grad;
+    background-size:150px 250px, auto;
+    border-top:$b-t;
     text-align:center;
     width:100vw;
     height:5vh;

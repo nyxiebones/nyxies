@@ -3,8 +3,8 @@
 @use '../base/typography' as *;
 #navbar{
     @include navbarsz;
-    background-color:$bt;
-    border-bottom:$bs;
+    background-color:$bs;
+    border-bottom:$b-t;
 }
 
 #navbar button{
