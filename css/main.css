@@ -10878,6 +10878,7 @@ table, th, td {
 
 .post {
   background-color: #ffe3fa;
+  border: inset 0 0 10px #A3789C;
   margin: 1rem;
   padding: 0.25rem;
 }
