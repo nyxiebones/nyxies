@@ -10805,15 +10805,17 @@ table, th, td {
 
 #footer {
   background: linear-gradient(to bottom, #C895F2 10%, #2C0225 100%);
+  border-top: #99F295;
   text-align: center;
   width: 100vw;
   height: 5vh;
 }
 
 #header {
-  background: linear-gradient(to bottom, #2C0225 20%, #C895F2 95%, #BEEBC4 97%);
+  background: linear-gradient(to bottom, #2C0225 30%, #C895F2 95%, #BEEBC4 100%);
   width: 100vw;
   height: 20vh;
+  border-bottom: #99F295;
 }
 
 #topbar {
@@ -10846,6 +10848,7 @@ table, th, td {
   gap: 0;
   width: 100%;
   background-color: #F2ED95;
+  border-bottom: #99F295;
 }
 
 #navbar button {
@@ -10863,6 +10866,7 @@ table, th, td {
   max-height: 75vh;
   min-height: 75vh;
   background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #2C0225 76%, #6E4367 90%);
+  border-right: #99F295;
   background-size: 150px 150px, auto;
   text-align: center;
 }

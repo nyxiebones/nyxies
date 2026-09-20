@@ -4,6 +4,7 @@
 #navbar{
     @include navbarsz;
     background-color:$bt;
+    border-bottom:$bs;
 }
 
 #navbar button{
