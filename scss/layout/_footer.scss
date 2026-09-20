@@ -2,7 +2,7 @@
 @use '../abstracts/variables' as *;
 
 #footer{
-    background-color:$bp;
+    background:$footer-grad;
     text-align:center;
     width:100vw;
     height:5vh;

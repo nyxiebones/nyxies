@@ -44,16 +44,27 @@ $c6:#022C08; /*Dark tone 2*/
 
 $sb-grad:linear-gradient(
     to bottom,
-    $m5 70%,
-    $m4 99%,
-    $m1 100%,
-    $c1 100%
+    $m6 76%,
+    $m4 90%
  );
 
  $board-grad:linear-gradient(
     to bottom,
     $m1 90%,
     $m0 100%
+ );
+
+ $header-grad:linear-gradient(
+    to bottom,
+    $m6 20%,
+    $bp 95%,
+    $c1 97%
+ );
+
+ $footer-grad:linear-gradient(
+    to bottom,
+    $bp 10%,
+    $m6 100%
  );
 
 /* END BRANDING COLORS */
