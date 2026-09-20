@@ -10830,7 +10830,7 @@ table, th, td {
   justify-content: space-between;
   align-items: flex-start;
   gap: 0;
-  background-image: url("/assets/images/board.webp");
+  background-image: url("/assets/images/hexagon-graph-paper-seamless-pattern-png.webp");
   background-attachment: fixed;
   background-repeat: repeat;
   width: 100vw;
@@ -10862,12 +10862,14 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background-color: rgb(255, 255, 255);
+  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #4F2548 70%, #A3789C 99%, #EBBEE3 100%, #BEEBC4 100%);
+  background-size: 150px 150px, auto;
   text-align: center;
 }
 
 #sidebar .rounded-avatar {
   max-width: 75%;
+  border-radius: 50%;
 }
 
 .popup-header h2 {

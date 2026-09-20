@@ -39,6 +39,16 @@ $c4:#436E49; /*Mid tone 2*/
 $c5:#254F2B; /*Dark tone 1*/
 $c6:#022C08; /*Dark tone 2*/
 
+// gradients
+
+$sb-grad:linear-gradient(
+    to bottom,
+    $m5 70%,
+    $m3 99%,
+    $m1 100%,
+    $c1 100%
+ );
+
 /* END BRANDING COLORS */
 
 ///////////////////////////////////////////////////////////////////////////////////

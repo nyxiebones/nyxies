@@ -2,7 +2,7 @@
 @use '../abstracts/variables' as *;
 #main{
     @include flex-row-between;
-    background-image:url('/assets/images/board.webp');
+    background-image:url('/assets/images/hexagon-graph-paper-seamless-pattern-png.webp');
     background-attachment:fixed;
     background-repeat:repeat;
     width:100vw;

@@ -4,10 +4,13 @@
 #sidebar{
     @include flex-col-even;
     @include sidebar;
-    background-color:rgb(255, 255, 255);
+    background:url('/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png'),
+    $sb-grad;
+    background-size:150px 150px, auto;
     text-align:center;
 }
 
 #sidebar .rounded-avatar{
     max-width:75%;
+    border-radius:$brr;
 }
