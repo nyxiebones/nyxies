@@ -2,9 +2,9 @@
 @use '../abstracts/variables' as *;
 
 #header{
-    background:
-    url('/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png'),
-    $header-grad;
+    background:url('/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png');
+    background-color:$m2;
+    border-bottom:$b-t;
     width:100vw;
     height:20vh;
 }

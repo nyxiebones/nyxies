@@ -3,7 +3,7 @@
 @use '../base/typography' as *;
 #navbar{
     @include navbarsz;
-    background-color:$bs;
+    background-color:$bp;
     border-bottom:$b-t;
 }
 

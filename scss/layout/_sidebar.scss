@@ -4,10 +4,8 @@
 #sidebar{
     @include flex-col-even;
     @include sidebar;
-    background:url('/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png'),
-    $sb-grad;
+    background-color:$m0;
     border-right:$b-t;
-    background-size:150px 150px, auto;
     text-align:center;
 }
 

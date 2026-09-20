@@ -10804,8 +10804,8 @@ table, th, td {
 }
 
 #footer {
-  background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png"), linear-gradient(to bottom, #C895F2 10%, #6E4367 75%, #2C0225 100%);
-  background-size: 150px 250px, auto;
+  background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png");
+  background-color: #C99EC2;
   border-top: 1px solid #A3789C;
   text-align: center;
   width: 100vw;
@@ -10813,7 +10813,9 @@ table, th, td {
 }
 
 #header {
-  background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png"), linear-gradient(to bottom, #2C0225 80%, #C895F2 100%);
+  background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png");
+  background-color: #C99EC2;
+  border-bottom: 1px solid #A3789C;
   width: 100vw;
   height: 20vh;
 }
@@ -10847,7 +10849,7 @@ table, th, td {
   align-items: flex-start;
   gap: 0;
   width: 100%;
-  background-color: #99F295;
+  background-color: #C895F2;
   border-bottom: 1px solid #A3789C;
 }
 
@@ -10865,9 +10867,8 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background: url("/assets/images/pngtree-seamless-lace-pattern-png-image_11956996.png"), linear-gradient(to bottom, #2C0225 76%, #6E4367 90%);
+  background-color: #ffe3fa;
   border-right: 1px solid #A3789C;
-  background-size: 150px 150px, auto;
   text-align: center;
 }
 

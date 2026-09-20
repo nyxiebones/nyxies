@@ -44,8 +44,8 @@ $c6:#022C08; /*Dark tone 2*/
 
 $sb-grad:linear-gradient(
     to bottom,
-    $m6 76%,
-    $m4 90%
+    $m4 86%,
+    $m3 100%
  );
 
  $board-grad:linear-gradient(
@@ -56,14 +56,13 @@ $sb-grad:linear-gradient(
 
  $header-grad:linear-gradient(
     to bottom,
-    $m6 80%,
-    $bp 100%
+    $m6 70%,
+    $m5 100%
  );
 
  $footer-grad:linear-gradient(
     to bottom,
-    $bp 10%,
-    $m4 75%,
+    $m5 75%,
     $m6 100%
  );
 
