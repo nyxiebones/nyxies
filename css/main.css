@@ -10850,12 +10850,14 @@ table, th, td {
   align-items: flex-start;
   gap: 0;
   width: 100%;
-  background-color: #2C0225;
+  background-color: #C895F2;
   border-bottom: 1px solid #2C0225;
 }
 
 #navbar button {
+  padding: 0.25rem;
   font-family: "Space Grotesk", sans-serif;
+  color: #EBBEE3;
 }
 
 #sidebar {
@@ -10868,7 +10870,10 @@ table, th, td {
   max-width: 20vw;
   max-height: 75vh;
   min-height: 75vh;
-  background-color: #6E4367;
+  background: url("/assets/images/sparkle.gif");
+  background-size: 250px 250px, auto;
+  background-repeat: repeat;
+  background-color: #2C0225;
   border-right: 1px solid #2C0225;
   text-align: center;
 }
@@ -10876,6 +10881,7 @@ table, th, td {
 #sidebar .rounded-avatar {
   max-width: 75%;
   border-radius: 50%;
+  box-shadow: 0px 0px 0px 5px #C895F2;
 }
 
 .popup-header h2 {

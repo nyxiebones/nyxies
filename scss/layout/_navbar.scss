@@ -3,10 +3,12 @@
 @use '../base/typography' as *;
 #navbar{
     @include navbarsz;
-    background-color:$m6;
+    background-color:$bp;
     border-bottom:$b-t;
 }
 
 #navbar button{
+    padding:$space-xs;
     font-family:$link-font;
+    color:$m1;
 }
