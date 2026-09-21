@@ -11,4 +11,8 @@
     padding:$space-xs;
     font-family:$link-font;
     color:$m1;
+    width:100%;
+}
+#navbar button.active{
+    background-color:$bs;
 }

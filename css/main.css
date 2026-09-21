@@ -10805,7 +10805,7 @@ table, th, td {
 
 #footer {
   background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png");
-  background-color: #4F2548;
+  background-color: #2C0225;
   border-top: 1px solid #2C0225;
   text-align: center;
   width: 100vw;
@@ -10814,7 +10814,7 @@ table, th, td {
 
 #header {
   background: url("/assets/images/pngtree-abstract-lines-seamless-pattern-curve-background-in-memphis-style-vector-png-image_12651229.png");
-  background-color: #4F2548;
+  background-color: #2C0225;
   border-bottom: 1px solid #2C0225;
   width: 100vw;
   height: 20vh;
@@ -10858,6 +10858,11 @@ table, th, td {
   padding: 0.25rem;
   font-family: "Space Grotesk", sans-serif;
   color: #EBBEE3;
+  width: 100%;
+}
+
+#navbar button.active {
+  background-color: #99F295;
 }
 
 #sidebar {
@@ -10873,7 +10878,7 @@ table, th, td {
   background: url("/assets/images/sparkle.gif");
   background-size: 250px 250px, auto;
   background-repeat: repeat;
-  background-color: #2C0225;
+  background-color: #4F2548;
   border-right: 1px solid #2C0225;
   text-align: center;
 }
