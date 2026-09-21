@@ -24,6 +24,7 @@
 
 @mixin navbarsz{
     @include flex-row-around;
+    align-items:center;
     width:100%;
 }
 
