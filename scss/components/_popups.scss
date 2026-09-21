@@ -1,8 +1,11 @@
 @use '../abstracts/variables' as *;
 @use '../base/typography' as *;
 
-.popup{
+#popup-container{
     position:absolute;
+
+}
+.popup{
     inset:0;
     width:100%;
     height:100%;
