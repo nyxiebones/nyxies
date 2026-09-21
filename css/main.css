@@ -10896,11 +10896,20 @@ table, th, td {
   box-shadow: 0px 0px 0px 5px #C895F2;
 }
 
+#popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .popup {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #EBBEE3;
+  margin: 2rem;
+  padding: 1rem;
+  width: 75%;
+  background-color: #6E4367;
+  color: #C99EC2;
+  box-shadow: inset 0 0 10px #6E4367;
+  border: 1px solid #2C0225;
 }
 
 .popup-header h2 {

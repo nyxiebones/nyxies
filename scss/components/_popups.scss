@@ -1,11 +1,18 @@
 @use '../abstracts/variables' as *;
 @use '../base/typography' as *;
-
+#popup-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 .popup{
-    position:absolute;
-    width:100%;
-    height:100%;
-    background-color:$m1;
+    margin:$space-lg;
+    padding:$space-md;
+    width:75%;
+    background-color:$m4;
+    color:$m2;
+    box-shadow:$b-i;
+    border:$b-t;
 
 }
 .popup-header h2{
